@@ -53,7 +53,7 @@ const Gallery = () => {
     
   ];
   return (
-    <div id='gallery' className=' bg-blue-200 pb-10 pt-5 '>
+    <div id='gallery' className=' bg-gray-200 pb-10 pt-5 '>
 
       {/* top */}
       <div className='flex justify-center flex-col items-center px-2'>

@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/event/robotics/register" element={<RoboticsRegistration />} />
         {/* Add routes for other event registration pages */}
       </Routes>
-    </Router>
+      </Router>
 
       <Footer/>
 

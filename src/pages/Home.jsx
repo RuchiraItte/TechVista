@@ -4,11 +4,12 @@ import Events from './Events'
 import Sponsers from './Sponsers'
 import Gallery from './Gallery'
 import Faq from './Faq'
+import Banner from './Banner'
 
 const Home = () => {
   return (
-    <div className='mt-16'>
-      <div id='home' className='bg-yellow-300 mt-16 py-64'>Home</div>
+    <div className='mt-12'>
+      <Banner/>
       <About/>
       <Events/>
       <Sponsers/>
