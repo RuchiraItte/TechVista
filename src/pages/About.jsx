@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const About = () => {
 
   const backgroundStyle = {
-    backgroundImage: "url('/images/hackathon.jpg')",
+    backgroundImage: "url('/images/about_bg_img.png')",
     backgroundSize: "cover", // Ensures the image covers the entire container
     backgroundPosition: "center", // Centers the image
     backgroundRepeat: "no-repeat", // Prevents tiling
@@ -26,10 +26,10 @@ const About = () => {
   ];
 
   return (
-    <div>
+    <div className='  '>
       <div id='about' className='' style={backgroundStyle}>
 
-          <div className=' bg-black bg-opacity-85 py-10'>
+          <div className=' bg-black bg-opacity-65 py-10'>
             {/* top */}
           <div className=' grid grid-cols-1 md:grid-cols-2 gap-5 w-[85%] mx-auto'>
             <div className=' text-white flex flex-col gap-4 '>
@@ -43,10 +43,10 @@ const About = () => {
                   <p>26-28 Febraury</p>
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <p className=' font-bold text-[15px] lg:text-[18px]'>WHERE</p>
                 <p className=' text-[12px] lg:text-[14px]'>VSIT,College</p>
-              </div>
+              </div> */}
               </div>
 
             </div>
@@ -64,16 +64,16 @@ const About = () => {
 </div>
      </div>  
 
-     <div className=' '>
+     <div className='bg-gradient-to-b from-white to-pink-300 '>
 
       {/* In-charge and Organizers */}
-     <div className=" bg-gray-100 flex flex-col items-center justify-center py-12 ">
+     <div className="  flex flex-col items-center justify-center py-12 ">
       <h1 className=' font-bold text-[18px] text-center md:text-2xl mb-4 text-pink-800'>In-Charge and Organizers of TechVista</h1>
       <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 md:gap-4 lg:gap-10 xl:gap-20 gap-4">
         {cardsOrganizers.map((card) => (
           <div>
           <div key={card.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center h-[180px] w-[120px] md:h-[240px] md:w-[160px] xl:h-[300px] xl:w-[200px]">
+            className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center h-[160px] w-[120px] md:h-[210px] md:w-[160px] xl:h-[260px] xl:w-[200px]">
             <img
               src={card.image}
               alt={card.title}
@@ -88,14 +88,14 @@ const About = () => {
      </div>
 
      {/* coordinaters */}
-     <div className=" bg-gray-100 flex flex-col items-center justify-center pb-12 w-full mx-auto">
+     <div className="  flex flex-col items-center justify-center pb-12 w-full mx-auto">
      <h1 className=' font-bold text-[18px] md:text-2xl mb-4 text-pink-800'>Coordinaters of TechVista</h1>
 
       <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 md:gap-10 xl:gap-20 gap-4  ">
         {cardsCoordinaters.map((card) => (
           <div>
           <div key={card.id}
-            className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center h-[180px] w-[120px] md:h-[240px] md:w-[160px] xl:h-[300px] xl:w-[200px]">
+            className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col items-center h-[160px] w-[120px] md:h-[210px] md:w-[160px] xl:h-[260px] xl:w-[200px]">
             <img
               src={card.image}
               alt={card.title}

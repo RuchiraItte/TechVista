@@ -8,17 +8,22 @@ const Events = () => {
 
   // Event data
   const eventsDay1 = [
-    { name: 'Hackathon', image: '/images/banner_img_small.png', path: '/event/hackathon' },
-    { name: 'Robotics', image: '/images/robotics.jpg', path: '/event/robotics' },
-    { name: 'Blind Coding', image: '/images/blindcoding.jpg', path: '/event/blindcoding' },
-    { name: 'Event4', image: '/images/blindcoding.jpg', path: '/event/blindcoding' }
+    { name: 'Hackathon', image: '/images/events/hackathon.jpg', path: '/event/hackathon' },
+    { name: 'BGMI', image: '/images/events/bgmi.jpg', path: '/event/bgmi' },
+    { name: 'Blind Coding', image: '/images/events/blind_coding.jpg', path: '/event/blind_coding' },
+    { name: 'Code Hunt', image: '/images/events/code_hunt.jpg', path: '/event/code_hunt' },
+    { name: 'M2M', image: '/images/events/m2m.jpg', path: '/event/m2m' },
+    { name: 'Prompt Engineering', image: '/images/events/prompt.jpg', path: '/event/prompt' }, 
   ];
 
   const eventsDay2 = [
-    { name: 'BGMI', image: '/images/bgmi.jpg', path: '/event/bgmi' },
-    { name: 'Bug Bash', image: '/images/hackathon.jpg', path: '/event/hackathon' },
-    { name: 'Treasure hunt', image: '/images/robotics.jpg', path: '/event/robotics' },
-    { name: 'Event4', image: '/images/robotics.jpg', path: '/event/robotics' }
+    { name: 'Research', image: '/images/events/research.jpg', path: '/event/research' },
+    { name: 'Stand Up', image: '/images/events/standup.jpg', path: '/event/standup' },
+    { name: 'Track Race', image: '/images/events/track_race.jpg', path: '/event/track_race' },
+    { name: 'Treasure Hunt', image: '/images/events/treasure_hunt.jpg', path: '/event/treasure_hunt' },
+    { name: 'UiUx', image: '/images/events/uiux.jpg', path: '/event/uiux' },
+    { name: 'Valorant', image: '/images/events/valorant.jpg', path: '/event/valorant' },
+    { name: 'Bug Bounty', image: '/images/events/bug_bounty.jpg', path: '/event/bug_bounty' },
   ];
  
 
