@@ -15,23 +15,23 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   const gridItems = [
-    {
-      id: 1,
-      title: "Quick Links",
-      content: (
-        <>
-          <a href="#about">
-            <p className="pt-2">About Event</p>
-          </a>
-          <a href="#events">
-            <p className="pt-2">Schedule</p>
-          </a>
-          <a href="#events">
-            <p className="pt-2">Register</p>
-          </a>
-        </>
-      ),
-    },
+    // {
+    //   id: 1,
+    //   title: "Quick Links",
+    //   content: (
+    //     <>
+    //       <a href="#about">
+    //         <p className="pt-2">About Event</p>
+    //       </a>
+    //       <a href="#events">
+    //         <p className="pt-2">Schedule</p>
+    //       </a>
+    //       <a href="#events">
+    //         <p className="pt-2">Register</p>
+    //       </a>
+    //     </>
+    //   ),
+    // },
     {
       id: 2,
       icon: <LuPhone size={20} />,

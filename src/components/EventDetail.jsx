@@ -66,6 +66,13 @@ const EventDetail = () => {
           </div>
         </div>
 
+        {/* Register Button */}
+        <div className="mt-10">
+          <Link to={`/event/${eventName}/register`} className="bg-blue-900 shadow-sm shadow-pink-500 text-white px-4 py-2">
+            Register Now
+          </Link>
+        </div>
+
         {/* Event Heads */}
        
         <div className="flex flex-col justify-center items-center md:items-start py-12">
@@ -92,12 +99,7 @@ const EventDetail = () => {
             </div>
 
 
-        {/* Register Button */}
-        <div className="mt-4">
-          <Link to={`/event/${eventName}/register`} className="bg-pink-600 text-white px-4 py-2">
-            Register Now
-          </Link>
-        </div>
+        
 
         {/* Back to Events Link */}
         <div className="mt-2">
