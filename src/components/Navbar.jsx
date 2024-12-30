@@ -113,7 +113,7 @@ const Navbar = () => {
   return (
     <>
       <nav className=' z-10'>
-        <div className='px-6 md:px-12 lg:px-20 xl:px-24 bg-black flex justify-between items-center py-4 fixed top-0 left-0 w-full z-50 '>
+        <div className='px-6 md:px-12 lg:px-20 xl:px-24 shadow-sm shadow-pink-700 bg-black flex justify-between items-center py-4 fixed top-0 left-0 w-full z-50 '>
           {/* logo section */}
           <div className=' text-2xl flex items-center gap-2 font-bold '>
             <p className=' text-white'>TechVista Logo</p>
