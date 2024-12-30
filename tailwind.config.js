@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'left-pink': '-4px 0 10px -2px rgba(219, 39, 119, 0.6)', // Customize the values
+      },
       container:{
         center:true,
         padding:{
