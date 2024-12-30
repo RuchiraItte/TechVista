@@ -1,6 +1,8 @@
+
+
 import React, { useState } from 'react';
 
-const HackathonRegistration = () => {
+const CodeHuntRegister = () => {
   // State for handling form errors
   const [phoneError, setPhoneError] = useState('');
 
@@ -47,7 +49,7 @@ const HackathonRegistration = () => {
           <img src='/images/register_img.jpg' className=' w-full h-full'/>
         </div>
         <div className=' w-full lg:w-[65%]'>
-              <h1 className="text-2xl font-bold text-center text-pink-600 py-3">Register for Hackathon </h1>
+              <h1 className="text-2xl font-bold text-center text-pink-600 py-3">Register for Code Hunt </h1>
             <div className='  text-white bg-black shadow-xl m-0 sm:m-5  py-5 px-3 lg:px-5 xl:px-10'>
             <form className="form " onSubmit={(e) => Submit(e)}>
               <div className=' flex flex-col gap-6 py-6 lg:py-0 md:px-5 lg:px-2'>
@@ -88,4 +90,4 @@ const HackathonRegistration = () => {
   );
 };
 
-export default HackathonRegistration;
+export default CodeHuntRegister;

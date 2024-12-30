@@ -53,13 +53,16 @@ const Gallery = () => {
     
   ];
   return (
-    <div id='gallery' className=' bg-gray-200 pb-10 pt-5 '>
+    // <div id='gallery' className=" bg-cover bg-center bg-no-repeat bg-[url('/images/gallery_img_bg.jpg')]  " >
+    <div id='gallery' className=" bg-cover bg-center bg-no-repeat bg-gradient-to-b from-white to-pink-400 " >
 
-      {/* top */}
+      {/* <div className=' bg-black bg-opacity-45 pb-10 pt-5'> */}
+      <div className='  pb-10 pt-5'>
+        {/* top */}
       <div className='flex justify-center flex-col items-center px-2'>
-        <h1 className='text-2xl font-bold'>Gallery</h1>
+        <h1 className='text-2xl font-bold text-pink-600'>Gallery</h1>
         {/* <p className='text-center'>Step into the spotlight and showcase your talents at TechVista 2025</p> */}
-        <hr className='border-2 border-black w-[20%] mt-2' />
+        <hr className='border-2 border-pink-600 w-[20%] mt-2' />
       </div>
 
         {/* bottom */}
@@ -78,6 +81,9 @@ const Gallery = () => {
            }
           </Slider> 
         </div>
+
+
+      </div>
     </div>
   )
 }

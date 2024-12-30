@@ -1,0 +1,176 @@
+{
+  "hackathon": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  },
+  "bgmi": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  },
+  "blind_coding": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  },
+  "bug_bounty": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  },
+  "code_hunt": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  },
+  "m2m": {
+    "description": [
+      "Hackathon is a 48-hour coding challenge.",
+      "Participants collaborate in teams or individually.",
+      "It involves solving real-world problems.",
+      "Participants can showcase their innovative ideas.",
+      "Winners receive exciting prizes and recognition.",
+      "Winners receive exciting prizes and recognition."
+    ],
+    "rules": [
+      "Code all night and all day.",
+      "No plagiarism; originality is mandatory.",
+      "Teams can have up to 5 members.",
+      "Use of third-party libraries is allowed but must be disclosed.",
+      "All submissions must be made before the deadline.",
+      "Participants must adhere to the event schedule."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "timing": "9 AM - 9 PM",
+    "venue": "Tech Auditorium",
+    "heads": [
+      { "name": "Sahil Shah", "contact": "9123456789", "image": "/images/robotics.jpg" },
+      { "name": "Ruchira Itte", "contact": "9876543223", "image": "/images/hackathon.jpg" },
+      { "name": "Unknown", "contact": "9988776655", "image": "/images/register_img.jpg" }
+    ]
+  }
+}
