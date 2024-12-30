@@ -6,12 +6,12 @@ const Accordion = ({ tit, ans }) => {
   const [open, setOpen] = useState(false);
   
   return (
-    <div className='py-2 border-2 shadow-sm my-5 rounded-md'>
+    <div className='py-2 border-2 shadow-sm my-5 rounded-md hover:bg-pink-500'>
       <button 
         onClick={() => setOpen(!open)} 
-        className='flex justify-between items-center w-full pl-2 hover:bg-gray-200 transition-colors duration-200 rounded-md'
+        className='flex justify-between items-center w-full pl-2 transition-colors duration-200 rounded-md'
       >
-        <span className='font-semibold capitalize text-black text-[12px] sm:text-[12px] md:text-[14px] xl:text-[16px] text-left w-[90%]'>
+        <span className='font-semibold capitalize text-white text-[12px] sm:text-[12px] md:text-[14px] xl:text-[16px] text-left w-[90%]'>
           {tit}
         </span>
         {open ? (
@@ -23,11 +23,11 @@ const Accordion = ({ tit, ans }) => {
 
 
       <div 
-        className={`overflow-hidden transition-all duration-300 ease-in-out text-black ${
+        className={`overflow-hidden transition-all duration-300 ease-in-out text-white ${
           open ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className='px-4 py-2 text-sm sm:text-base bg-white rounded-md'>
+        <div className='px-4 py-2 text-sm sm:text-base transparent rounded-md'>
           {ans}
         </div>
       </div>
