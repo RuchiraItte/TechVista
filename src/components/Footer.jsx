@@ -12,8 +12,26 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   const footerItems = [
+    // {
+    //   id: 1,
+    //   title: "Quick Links",
+    //   content: (
+    //     <>
+    //       <a href="#about">
+    //         <p className="pt-2">About Event</p>
+    //       </a>
+    //       <a href="#events">
+    //         <p className="pt-2">Schedule</p>
+    //       </a>
+    //       <a href="#events">
+    //         <p className="pt-2">Register</p>
+    //       </a>
+    //     </>
+    //   ),
+    // },
     {
       id: 1,
+      icon: <LuPhone size={20} />,
       title: "Contact Info",
       content: (
         <>
@@ -61,7 +79,7 @@ const Footer = () => {
       id="contactus"
       className="bg-[#140009] text-white px-8 pt-10 pb-3 flex flex-col items-center"
     >
-      <div className="flex flex-col md:flex-row md:flex-wrap justify-center gap-10 md:gap-20 lg:gap-48 xl:gap-56 w-full max-w-6xl">
+      <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center gap-10 md:gap-16 lg:gap-32 xl:gap-56 w-full max-w-6xl">
         {footerItems.map((item) => (
           <div key={item.id} className="text-left">
             <h1 className="font-bold text-[#EF428C] text-left">

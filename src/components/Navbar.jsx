@@ -1,89 +1,4 @@
-// import React, { useState } from 'react'
-// import { IoMdMenu } from 'react-icons/io'
 
-// const Navbar = () => {
-//   const [isMenuOpen,setIsMenuOpen]=useState(false)
-//   const [activePage, setActivePage] = useState(window.location.pathname); 
-//   const [menuVisible, setMenuVisible] = useState(true)
-
-//   const toggleMenu=()=>{
-//     setIsMenuOpen(!isMenuOpen)
-//   }
-
-//   const handleLinkClick = (href) => {
-//     setActivePage(href);
-//     setMenuVisible(false); // Hide menu after clicking
-//   };
-
-//   const navLinks = [
-//     { name: "Home", href: "/" },
-//     { name: "About", href: "#about" },
-//     { name: "Events", href: "#events" },
-//     { name: "Sponsors", href: "#sponsors" },
-//     { name: "FAQ", href: "#faq" },
-//     { name: "Gallery", href: "#gallery" },
-//   ];
-
-//   return (
-//     <div className=' bg-black lg:py-4 py-3 md:px-6 lg:px-20 px-4 fixed top-0 left-0 right-0 '>
-//         <div className=' flex items-center justify-between'>
-//             {/* logo */}
-//             <div className=' text-white text-2xl font-bold'>Logo</div>
-
-//             <div className=' lg:hidden '>
-//                 <button className=' text-white' onClick={toggleMenu}>
-//                    <IoMdMenu size={30} className=' text-pink-600 shadow-lg'/>
-//                 </button>
-//             </div>
-
-//             {/* navitems */}
-//             <ul className="hidden lg:flex space-x-14">
-//                  {navLinks.map((link, index) => (
-//                    <li key={index} className="">
-//                      <a 
-                     
-//                        href={link.href} 
-//                        className={`text-pink-600 font-semibold hover:underline hover:text-[calc(1rem+3px)] transition-all ${
-//                          activePage === link.href ? 'underline text-pink-600 ' : ''
-//                        }`} 
-//                        onClick={() => setActivePage(link.href)}
-//                      >
-//                        {link.name}
-//                      </a>
-//                    </li>
-//                  ))}
-//           </ul>
-
-            
-            
-//         </div>
-
-//         {/* mobile menu */}
-//         {
-//                 isMenuOpen?(
-                  
-//                   <ul className={`flex-col lg:hidden ${menuVisible ? "block" : "hidden"}`}>
-//                       {navLinks.map((link, index) => (
-//                         <li key={index} className="py-2">
-//                           <a
-//                             href={link.href}
-//                             className={`text-pink-600 font-semibold hover:underline hover:text-[calc(1rem+3px)] transition-all ${
-//                               activePage === link.href ? "underline text-pink-800" : ""
-//                             }`}
-//                             onClick={() => handleLinkClick(link.href)}
-//                           >
-//                             {link.name}
-//                           </a>
-//                         </li>
-//                       ))}
-//                  </ul>
-//                 ):null
-//               }
-//     </div>
-//   )
-// }
-
-// export default Navbar
 
 import {motion, AnimatePresence } from 'framer-motion';
 import React, { useState } from 'react'
@@ -113,10 +28,10 @@ const Navbar = () => {
   return (
     <>
       <nav className=' z-10'>
-        <div className='px-6 md:px-12 lg:px-20 xl:px-24 shadow-sm shadow-pink-700 bg-black flex justify-between items-center py-4 fixed top-0 left-0 w-full z-50 '>
+        <div className='px-6 md:px-12 lg:px-20 xl:px-24 shadow-sm shadow-pink-700 bg-black flex justify-between items-center py-1 lg:py-1 xl:py-3 fixed top-0 left-0 w-full z-50 '>
           {/* logo section */}
-          <div className=' text-2xl flex items-center gap-2 font-bold '>
-            <p className=' text-white'>TechVista Logo</p>
+          <div className=' text-2xl font-bold '>
+            <img src='/images/landing/landing_tech_logo.png' className='w-14 h-12'/>
           </div>
 
           {/* menu section */}
