@@ -21,6 +21,7 @@ import ValorantRegister from './forms/ValorantRegister';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Header } from './components/Header';
 
 const App = () => {
   useEffect(() => {
@@ -32,7 +33,7 @@ const App = () => {
 
   return (
     <div>
-      <Navbar/>
+      <Header/>
       {/* <Home/> */}
 
       <Router>
