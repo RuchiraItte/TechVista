@@ -1,13 +1,29 @@
 
 
 
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import eventDetails from '../data/eventDetails.json'
 
 const EventDetail = () => {
+
   const { eventName } = useParams();
   const event = eventDetails[eventName.toLowerCase()];
+  const navigate = useNavigate();
 
+  const handleBackToEvents = () => {
+    navigate('/'); // Navigate to the main events page
+    setTimeout(() => {
+      const eventsSection = document.getElementById('events');
+      if (eventsSection) {
+        window.scrollTo({
+          top: eventsSection.offsetTop,
+        });
+      }
+    }, 100); // Delay ensures the page and section are rendered
+  };
+  
+  
+  
   if (!event) {
     return (
       <div className="text-center text-white">
@@ -27,7 +43,7 @@ const EventDetail = () => {
       <div>
         <div className="flex flex-col md:flex-row gap-10">
           {/* Description */}
-          <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[500px]">
+          <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[550px]">
             <h3 className="font-semibold text-lg">Description</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.description.map((point, idx) => (
@@ -37,7 +53,7 @@ const EventDetail = () => {
           </div>
 
           {/* Rules */}
-          <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[500px]">
+          <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[550px]">
             <h3 className="font-semibold text-lg">Rules and Guidelines</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.rules.map((rule, idx) => (
@@ -50,7 +66,7 @@ const EventDetail = () => {
         {/* Additional Details */}
         <div className="flex flex-col md:flex-row gap-10 mt-10">
           {/* Prizes */}
-          <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[500px]">
+          <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[550px]">
             <h3 className="font-semibold text-lg">Prizes</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.prizes.map((prize, idx) => (
@@ -60,10 +76,19 @@ const EventDetail = () => {
           </div>
 
           {/* Timing and Venue */}
-          <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[500px]">
+          <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[550px]">
             <h3 className="font-semibold text-lg">Timing and Venue</h3>
             <p className="text-[10px] md:text-[11px] lg:text-[12px] xl:text-[17px]">{event.timing} at {event.venue}</p>
           </div>
+        </div>
+
+
+
+        {/* Register Button */}
+        <div className="mt-10">
+          <Link to={`/event/${eventName}/register`} onClick={()=> window.to(0,0)}  className="bg-blue-900 shadow-sm shadow-pink-500 text-white px-4 py-2">
+            Register Now
+          </Link>
         </div>
 
         {/* Event Heads */}
@@ -92,18 +117,16 @@ const EventDetail = () => {
             </div>
 
 
-        {/* Register Button */}
-        <div className="mt-4">
-          <Link to={`/event/${eventName}/register`} className="bg-pink-600 text-white px-4 py-2">
-            Register Now
-          </Link>
-        </div>
+        
 
         {/* Back to Events Link */}
         <div className="mt-2">
-          <Link to="/#events" className="text-blue-500 underline">
-            Back to Events
-          </Link>
+        <button
+        onClick={handleBackToEvents}
+        className="text-blue-500 underline"
+      >
+        Back to Events
+      </button>
         </div>
       </div>
     </div>

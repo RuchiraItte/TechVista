@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Footer from './components/Footer'
@@ -19,7 +19,17 @@ import TreasureHuntRegister from './forms/TreasureHuntRegister';
 import UiuxRegister from './forms/UiuxRegister';
 import ValorantRegister from './forms/ValorantRegister';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: "ease-in-sine",
+    });
+  }, []);
+
   return (
     <div>
       <Navbar/>
@@ -55,3 +65,7 @@ const App = () => {
 }
 
 export default App
+
+
+
+// font- Audiowide
