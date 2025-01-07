@@ -50,4 +50,105 @@
 }
 
 
+/* Landing LOGO Background border glowing effect */
+.landingBlock {
+  position: relative;
+  /* width: 200px; 
+  height: 200px;  */
+  border: 10px solid white;
+  border-radius: 50%;
+  animation: glow-animation 2s infinite alternate;
+  box-shadow: 
+    0 0 20px 10px rgba(239, 66, 140, 0.6), /* Outer glow */
+    inset 0 0 40px rgba(239, 66, 140, 0.6); /* Inner shadow */
+}
+
+@keyframes glow-animation {
+  0% {
+    box-shadow: 
+      0 0 20px 10px rgba(239, 66, 140, 0.6), 
+      inset 0 0 40px rgba(239, 66, 140, 0.6);
+  }
+  50% {
+    box-shadow: 
+      0 0 30px 15px rgba(239, 66, 140, 0.8), 
+      inset 0 0 45px rgba(239, 66, 140, 0.8);
+  }
+  100% {
+    box-shadow: 
+      0 0 20px 10px rgba(239, 66, 140, 0.6), 
+      inset 0 0 40px rgba(239, 66, 140, 0.6);
+  }
+}
+
+.glow::before,
+.glow::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  z-index: -1; /* Place the glow behind */
+}
+
+
+
+/* brochure */
+
+
+.brochureBlock {
+  /* position: relative; */
+  /* width: 200px;  */
+  /* height: 200px;  */
+  border: 2px solid transparent; /* Border base is transparent */
+  /* border-radius: 50%; */
+  animation: border-rotate 3s linear infinite; /* Infinite rotation */
+  background: linear-gradient(90deg, #EF428C, #3434c2, #32CD32, #EF428C, #530257); /* Gradient colors */
+  background-size: 300%; /* Stretch the gradient for smooth animation */
+  background-clip: border-box; /* Clip gradient to the border */
+  -webkit-mask: linear-gradient(white, white) padding-box, 
+                linear-gradient(white, white) border-box;
+  mask: linear-gradient(white, white) padding-box, 
+       linear-gradient(white, white) border-box;
+}
+
+@keyframes border-rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+
+/* floating animation */
+@keyframes floating {
+  0%, 100% {
+    transform: translateY(0) rotate(-20deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(-20deg); /* Keep rotation consistent */
+  }
+}
+
+.floating-container {
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating-umb {
+  0%, 100% {
+    transform: translateY(0) rotate(-20deg);
+  }
+  50% {
+    transform: translateX(-10px) rotate(-20deg); /* Keep rotation consistent */
+  }
+}
+
+.floating-container-umbrella{
+  animation: floating-umb 3s ease-in-out infinite;
+}
+
 

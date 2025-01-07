@@ -67,7 +67,7 @@ const Events = () => {
       <div className="  flex flex-col items-center justify-center py-12 -z-20">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:gap-4 lg:gap-10 xl:gap-20 gap-4">
         {eventsToDisplay.map((event) => (
-          <div className='relative shadow-md shadow-pink-600'>
+          <div data-aos="zoom-y-out" data-aos-duration="600" data-aos-delay="50" className='relative shadow-md shadow-pink-600'>
               <div key={event.name}
                  className="bg-white rounded-md shadow-lg overflow-hidden flex flex-col items-center h-[300px] w-[240px] md:h-[310px] md:w-[260px] xl:h-[360px] xl:w-[310px]">
                 <div className=' bg-black w-full h-full opacity-85'>

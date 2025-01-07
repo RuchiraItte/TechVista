@@ -19,6 +19,7 @@ import TreasureHuntRegister from './forms/TreasureHuntRegister';
 import UiuxRegister from './forms/UiuxRegister';
 import ValorantRegister from './forms/ValorantRegister';
 
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Header } from './components/Header';
@@ -57,6 +58,7 @@ const App = () => {
 
         {/* Add routes for other event registration pages */}
       </Routes>
+                            
       </Router>
 
       <Footer/>
@@ -67,6 +69,6 @@ const App = () => {
 
 export default App
 
-
-
 // font- Audiowide
+
+

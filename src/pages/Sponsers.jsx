@@ -48,7 +48,7 @@ const Sponsers = () => {
   ];
   return (
     <div
-      id="gallery"
+      id="sponsors"
       className=" bg-gradient-to-tr from-[#310e27] 0% via-[#000000] 50% to-[#000000] 100% pb-10 pt-5 "
     >
       {/* top */}

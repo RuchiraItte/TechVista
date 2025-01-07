@@ -1,44 +1,61 @@
 import React, { useState } from 'react';
-
+import { toast } from 'react-toastify'; 
 const HackathonRegistration = () => {
   // State for handling form errors
   const [phoneError, setPhoneError] = useState('');
 
   function Submit(e) {
     e.preventDefault();
-
+  
     const formEle = document.querySelector("form");
     const formData = new FormData(formEle);
-
+  
     // Phone number validation
     const phone = formData.get('Phone');
     const phonePattern = /^[0-9]{10}$/;
-
+  
     if (!phonePattern.test(phone)) {
       setPhoneError('Please enter a valid 10-digit phone number.');
       return; // Stop form submission if validation fails
     }
-
+  
     setPhoneError(''); // Clear error if phone number is valid
-
+  
+    // Show a loading toast immediately
+    const loadingToast = toast.loading("Submitting your data...");
+  
     fetch("https://script.google.com/macros/s/AKfycbxrgStc2LRpEocv6l7MsXMsu-Z-9pBOSw6OrnMqHGRtTLxc_ISEVcUVraj4MY_OCWWqzw/exec", {
       method: "POST",
       body: formData
     })
-    .then((res) => res.json())
-    .then((data) => {
-      console.log(data);
-      alert("Your Data is Submitted Successfully!");
-      window.location.href="/"
-
-    })
-    .catch((error) => {
-      console.log(error);
-      alert("Your Data is Submitted Successfully!");
-      window.location.href="/"
-    });
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        // Update the loading toast to success
+        toast.update(loadingToast, {
+          render: "Your data has been submitted successfully!",
+          type: "success",
+          isLoading: false,
+          autoClose: 3000,
+        });
+        setTimeout(() => {
+          window.location.href = "/";
+        }, 3000);
+      })
+      .catch((error) => {
+        console.log(error);
+        // Update the loading toast to error
+        toast.update(loadingToast, {
+          render: "Your data has been submitted successfully!",
+          type: "success",
+          isLoading: false,
+          autoClose: 3000,
+        });
+        setTimeout(() => {
+          window.location.href = "/";
+        }, 3000);
+      });
   }
-
   return (
     <div className="p-4 pt-20 bg-gradient-to-r from-[#300a2b] 0% via-[#000000] 50% to-[#370c33] 100%">
 
@@ -65,17 +82,6 @@ const HackathonRegistration = () => {
                 {phoneError && <p className="text-red-500 text-sm mt-2">{phoneError}</p>} {/* Display phone error message */}
               </div>
 
-{/* extra */}
-              {/* <div className="">
-                <input name="Email" type="email" id="email" placeholder='Email' className="w-full text-white bg-[#1E1E1E] px-2 py-1 xl:py-2 border-none rounded" required />
-              </div>
-              <div className="">
-                <input name="Email" type="email" id="email" placeholder='Email' className="w-full text-white bg-[#1E1E1E] px-2 py-1 xl:py-2 border-none rounded" required />
-              </div>
-              <div className="">
-                <input name="Email" type="email" id="email" placeholder='Email' className="w-full text-white bg-[#1E1E1E] px-2 py-1 xl:py-2 border-none rounded" required />
-              </div> */}
-{/* extra */}
 
               <button type="submit" className="bg-pink-700 w-full text-white px-4 py-1 xl:py-2  rounded ">Submit</button>
               </div>
