@@ -86,10 +86,18 @@ const EventDetail = () => {
 
         {/* Register Button */}
         <div className="mt-10">
-          <Link to={`/event/${eventName}/register`} onClick={()=> window.to(0,0)}  className="bg-blue-900 shadow-sm shadow-pink-500 text-white px-4 py-2">
-            Register Now
+          <Link to={`/event/${eventName}/register`} onClick={()=> window.to(0,0)}  className="brochureBlock  shadow-sm shadow-pink-500 text-white py-2">
+            <button className=' bg-gray-200 font-semibold text-black py-[6px] px-4'>Register Now</button>
           </Link>
         </div>
+
+
+ 
+
+
+
+
+        
 
         {/* Event Heads */}
        

@@ -119,7 +119,7 @@ const Gallery = () => {
         breakpoint:10000,
         settings:{
           slidesToScroll:1,
-    slidesToShow:1,
+          slidesToShow:1,
           infinite:true
         }
       },
@@ -162,19 +162,22 @@ const Gallery = () => {
          </div>
 
         <div className='flex md:flex-row flex-col justify-center items-center gap-10 bg-gradient-to-r from-[#310e27] 0% via-[#000000] 50% to-[#28071c] 100% w-[85%] mx-auto'>
-          <div className='md:w-[50%] w-full justify-center items-center flex shadow-lg shadow-pink-600 p-2'>
-            <video className='w-full' controls>
-              <source src="/images/gallery/gallery_video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-             </video>
+          <div className='md:w-[50%] w-full md:h-[170px] lg:h-[250px] xl:h-[330px]  justify-center items-center flex shadow-lg shadow-pink-600 '>
+             <video
+                
+                src="/images/gallery/gallery_video.mp4"
+                loop
+                autoPlay
+                muted
+             />
           </div>
-          <div className='md:w-[50%] w-full shadow-lg shadow-pink-600 p-2'>        
+          <div className='md:w-[50%]  md:h-[167px] lg:h-[250px] xl:h-[340px] w-full shadow-lg shadow-pink-600 lg:py-3 '>        
            <Slider {...settings}>
              {
               navLinks.map((data)=>(          
                 <div key={data.id} className='  '>             
                   <div className=' flex justify-center items-center' >
-                    <img src={data.img} className='md:w-[220px] lg:w-[320px] xl:w-[470px] object-cover'/>
+                    <img src={data.img} className='w-full xl:h-[320px] md:h-[163px] lg:h-[240px] '/>
                   </div>   
                 </div>
               ))

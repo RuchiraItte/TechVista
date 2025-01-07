@@ -65,7 +65,7 @@ const About = () => {
 
      <div className=' bg-gradient-to-r from-[#310e27] 0% via-[#000000] 50% to-[#28071c] 100%' >
 
-      {/* In-charge and Organizers */}
+      {/* In-charge and Coordinaters */}
      <div className="  flex flex-col items-center justify-center py-12 ">
       <h1 className=' font-bold text-[18px] text-center md:text-2xl mb-4 text-pink-600'>In-Charge and Coordinates of TechVista</h1>
       <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 md:gap-4 lg:gap-10 xl:gap-20 gap-4">
