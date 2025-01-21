@@ -162,7 +162,7 @@ const Gallery = () => {
          </div>
 
         <div className='flex md:flex-row flex-col justify-center items-center gap-10 bg-gradient-to-r from-[#310e27] 0% via-[#000000] 50% to-[#28071c] 100% w-[85%] mx-auto'>
-          <div className='md:w-[50%] w-full md:h-[170px] lg:h-[250px] xl:h-[330px]  justify-center items-center flex shadow-lg shadow-pink-600 '>
+          <div className='md:w-[50%] w-full  justify-center items-center flex shadow-lg shadow-pink-600 '>
              <video
                 
                 src="/images/gallery/gallery_video.mp4"
@@ -171,13 +171,15 @@ const Gallery = () => {
                 muted
              />
           </div>
-          <div className='md:w-[50%]  md:h-[167px] lg:h-[250px] xl:h-[340px] w-full shadow-lg shadow-pink-600 lg:py-3 '>        
+
+
+          <div className='md:w-[50%] h-[190px]  md:h-[165px] lg:h-[240px] xl:h-[345px] w-full shadow-lg shadow-pink-600 '>        
            <Slider {...settings}>
              {
               navLinks.map((data)=>(          
                 <div key={data.id} className='  '>             
                   <div className=' flex justify-center items-center' >
-                    <img src={data.img} className='w-full xl:h-[320px] md:h-[163px] lg:h-[240px] '/>
+                    <img src={data.img} className='w-full h-[190px] md:h-[165px] lg:h-[240px]  xl:h-[345px]'/>
                   </div>   
                 </div>
               ))

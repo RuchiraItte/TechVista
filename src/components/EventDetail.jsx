@@ -2,7 +2,7 @@
 
 
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import eventDetails from '../data/eventDetails.json'
+import eventDetails from '../data/eventDetails_new.json'
 
 const EventDetail = () => {
 
@@ -37,27 +37,27 @@ const EventDetail = () => {
 
   return (
     <div className="px-7 md:px-12 lg:px-20 xl:px-24 pt-20 pb-12 bg-gradient-to-r from-[#310e27] via-[#000000] to-[#28071c] text-white">
-      <h1 className="text-2xl lg:text-4xl font-bold text-pink-700 uppercase py-4">{eventName}</h1>
+      <h1 className="text-2xl lg:text-4xl font-bold text-pink-700 uppercase py-4">{event.name_theme}</h1>
 
       {/* Event Details */}
       <div>
         <div className="flex flex-col md:flex-row gap-10">
           {/* Description */}
           <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[550px]">
-            <h3 className="font-semibold text-lg">Description</h3>
+            <h3 className="font-semibold text-xl text-pink-500">Description</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.description.map((point, idx) => (
-                <li key={idx} className="text-[10px] md:text-[11px] lg:text-[12px] xl:text-[17px]">{point}</li>
+                <li key={idx} className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px]">{point}</li>
               ))}
             </ul>
           </div>
 
           {/* Rules */}
           <div className="bg-black bg-opacity-80 py-2 px-6 border-2 border-pink-600 w-full md:w-[550px]">
-            <h3 className="font-semibold text-lg">Rules and Guidelines</h3>
+            <h3 className="font-semibold text-xl text-pink-500">Rules and Guidelines</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.rules.map((rule, idx) => (
-                <li key={idx} className="text-[10px] md:text-[11px] lg:text-[12px] xl:text-[17px]">{rule}</li>
+                <li key={idx} className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px]">{rule}</li>
               ))}
             </ul>
           </div>
@@ -67,7 +67,7 @@ const EventDetail = () => {
         <div className="flex flex-col md:flex-row gap-10 mt-10">
           {/* Prizes */}
           <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[550px]">
-            <h3 className="font-semibold text-lg">Prizes</h3>
+            <h3 className="font-semibold text-xl text-pink-500">Prizes</h3>
             <ul className="list-disc pl-3 md:pl-6">
               {event.prizes.map((prize, idx) => (
                 <li key={idx} className="text-[10px] md:text-[11px] lg:text-[12px] xl:text-[17px]">{prize}</li>
@@ -77,10 +77,20 @@ const EventDetail = () => {
 
           {/* Timing and Venue */}
           <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[550px]">
-            <h3 className="font-semibold text-lg">Timing and Venue</h3>
-            <p className="text-[10px] md:text-[11px] lg:text-[12px] xl:text-[17px]">{event.timing} at {event.venue}</p>
+            <p className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px]"><span className=' text-sm font-bold text-pink-500'>Date </span>: {event.date}</p>
+            <p className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px]"><span className=' text-sm font-bold text-pink-500'>Time </span>: {event.timing}</p>
+            <p className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px]"><span className=' text-sm font-bold text-pink-500'>Venue </span>: {event.venue}</p>
           </div>
+
+          
         </div>
+
+        {/* entry Fees: */}
+        <div className="bg-black bg-opacity-80 px-6 border-2 border-pink-600 w-full md:w-[550px] mt-10">
+            <p className="text-[12px] md:text-[11px] lg:text-[12px] xl:text-[16px] py-2"><span className=' text-sm font-bold text-pink-500'>Entry Fees </span>: {event.entryfee}</p> 
+        </div>
+
+
 
 
 
@@ -103,7 +113,7 @@ const EventDetail = () => {
        
         <div className="flex flex-col justify-center items-center md:items-start py-12">
                 <div>
-                  <h1 className="font-bold text-[18px] md:text-2xl mb-4 text-pink-800">Event Heads and In-charge</h1>
+                  <h1 className="font-bold text-[18px] md:text-2xl mb-4 text-pink-800">Event Head and In-charge</h1>
                   <div className="">
                     <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 md:gap-7 lg:gap-10 xl:gap-20">
                       {event.heads.map((head, idx) => (

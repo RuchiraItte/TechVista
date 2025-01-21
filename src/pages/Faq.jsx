@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const Faq = () => {
   return (
-    <div id="faq" className="pt-1 bg-cover bg-center bg-no-repeat bg-gradient-to-tr from-[#310e27] 0% via-[#000000] 50% to-[#000000] 100%">
+    <div id="faq" className="pt-1 bg-cover bg-center bg-no-repeat bg-custom-gradient-banner">
       <div className="max-w-7xl mx-auto min-h-[80vh] px-4">
         {/* main content */}
         <div className="flex flex-col lg:flex-row w-full gap-10 mt-10 xl:px-4 lg:px-16 ">
