@@ -12,40 +12,25 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   const footerItems = [
-    // {
-    //   id: 1,
-    //   title: "Quick Links",
-    //   content: (
-    //     <>
-    //       <a href="#about">
-    //         <p className="pt-2">About Event</p>
-    //       </a>
-    //       <a href="#events">
-    //         <p className="pt-2">Schedule</p>
-    //       </a>
-    //       <a href="#events">
-    //         <p className="pt-2">Register</p>
-    //       </a>
-    //     </>
-    //   ),
-    // },
+  
     {
       id: 1,
       icon: <LuPhone size={20} />,
       title: "Contact Info",
       content: (
         <>
-          <p className="flex gap-2 items-center">
+          <p className="flex gap-2 items-center py-1 cursor-pointer">
             <IoMdMail size={18} />
-            contact@techvista.com
+            <a href="mailto:techvista@vsit.edu.in?subject=TechVista Inquiry&body=Hello, I would like to know more about...">techvista@vsit.edu.in</a>
           </p>
-          <p className="flex gap-2 items-center">
+          <p className="flex gap-2 items-center py-1 cursor-pointer">
             <IoCall size={18} />
-            9876543212
+             <a href="tel:+919082249947">9082249947</a>
           </p>
-          <p className="flex gap-2 items-center">
+          <p className="flex gap-2 items-center py-1 cursor-pointer">
             <FaLocationDot size={18} />
-            Vidyalankar School of Information Technology
+            
+            <a target="_blank" href="https://www.google.com/maps/place/Vidyalankar+School+of+Information+Technology/@19.0212323,72.8679978,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7cf394b345bdd:0x8d44ea4f85af3ceb!8m2!3d19.0212323!4d72.8705727!16s%2Fg%2F1hg4vql33?entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D">Vidyalankar School of Information Technology</a>
           </p>
         </>
       ),
@@ -55,8 +40,9 @@ const Footer = () => {
       title: "Timing",
       content: (
         <>
-          <p>Mon-Wed: 26-18 February 2025</p>
-          <p>09:00 AM Onwards</p>
+          <p className=" py-1">28th February & 1st March </p>
+          <p className=" py-1">Friday & Saturday </p>
+          <p className=" py-1">09:00 AM Onwards</p>
         </>
       ),
     },
@@ -65,10 +51,10 @@ const Footer = () => {
       title: "Follow Us",
       content: (
         <div className="flex gap-5">
-          <a href="https://www.instagram.com/techvista_vsit">
+          <a target="_blank" href="https://www.instagram.com/techvista_vsit">
             <FaInstagram size={20} />
           </a>
-          <FaLinkedin size={20} />
+          {/* <FaLinkedin size={20} /> */}
         </div>
       ),
     },
@@ -77,26 +63,26 @@ const Footer = () => {
   return (
     <div
       id="contactus"
-      className="bg-[#140009] text-white px-8 pt-10 pb-3 flex flex-col items-center"
+      className="bg-gradient-to-tr from-[#2c1726] 0% via-[#1a0714] 50% to-[#000000] 100%  text-white px-8 pt-8 pb-3 flex flex-col items-center"
     >
-      <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center gap-10 md:gap-16 lg:gap-32 xl:gap-56 w-full max-w-6xl">
+      <div className="flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-center gap-10 md:gap-16 lg:gap-32 xl:gap-64 w-full max-w-6xl">
         {footerItems.map((item) => (
           <div key={item.id} className="text-left">
             <h1 className="font-bold text-[#EF428C] text-left">
               {item.title}
             </h1>
             <div className="text-sm mt-2 text-left">
-              {item.content}
+              <p>{item.content}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="w-full max-w-2xl lg:max-w-4xl xl:max-w-6xl mt-10">
+      <div className="w-full max-w-2xl lg:max-w-4xl xl:max-w-6xl mt-7">
         <hr className="border-[#EF428C]" />
       </div>
       <div className="text-center mt-3">
         <p className="text-sm">
-          © 2025, All Rights Reserved By Vidyalankar School of Information Technology
+          © TechVista 2025, All Rights Reserved By Vidyalankar School of Information Technology
         </p>
       </div>
     </div>

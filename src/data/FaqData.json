@@ -1,23 +1,22 @@
-[
-    {"title":"How do I prepare my home before I sell it?" ,
-     "answer":"When preparing to sell your home, the first thing to do is make it presentable. This means giving the entire house a thorough cleaning and making small repairs."
+[ 
+    {"title":"Who can participate in the event?" ,
+     "answer":"Students from schools, colleges, and universities, as well as professionals and enthusiasts, are welcome to participate."
+    },
+    {"title":"How can I register for the event?" ,
+     "answer":"You can register by visiting our official website and filling out the registration form available under the 'Register' section."
     },
   
-    {"title":"How long will it take to sell my home?" ,
-     "answer":"On average, a house takes between 55 and 70 days to sell. That includes 25 days on the market and 30 to 45 days for closing."
-    },
-    {"title":"What should the list price of my home be?" ,
-     "answer":"The first step in deciding your home’s list price is to get a comparative market analysis (CMA) from a real estate agent."
+    {"title":" Is there any registration fee?" ,
+     "answer":" Yes, the registration fee varies depending on the event. Detailed information is provided on the registration page."
     },
   
-    {"title":"Why is my home’s assessed value different from the market value?" ,
-     "answer":"Your home's assessed value and market value are each determined by different factors. Buyers and sellers affect the market value of a home, while professional appraisers calculate the assessed value. "
+    {"title":"Can I register for multiple events?" ,
+     "answer":"Yes, you can register for multiple events. Just visit the event pages of your choice and complete the registration process for each."
     },
-  
-    {"title":"Are real estate commissions negotiable?" ,
-     "answer":"You can definitely negotiate your realtor’s fees. They’re typically 6%, with 3% of that going to the buyer’s agent and 3% going to your agent."
-    },
-    {"title":"Should I buy a new home before selling my old one?" ,
-     "answer":"Whether or not you should buy a new home before selling your existing home is a personal choice.  "
+    {"title":" Will certificates be provided to participants?" ,
+     "answer":" Yes, all participants will receive certificates. Winners will receive additional recognition and prizes."
+    } ,
+    {"title":" Whom can I contact for more details?" ,
+     "answer":"  For more information, you can email us at [techvista@vsit.edu.in] or call us at [9082249947]."
     } 
   ]

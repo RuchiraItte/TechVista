@@ -6,24 +6,24 @@ const Events = () => {
   // State to toggle between Day 1 and Day 2 events
   const [selectedDay, setSelectedDay] = useState('Day 1');
 
-  // Event data
+  // Event datawe are changing our event name to MetaSquid Hackathon
   const eventsDay1 = [
-    { name: 'BGMI', image: '/images/events/bgmi_new.png', path: '/event/bgmi' },
-    { name: 'M2M', image: '/images/events/m2m_new.png', path: '/event/m2m' },
-    { name: 'Hackathon', image: '/images/events/hackathon.png', path: '/event/hackathon' },
-    { name: 'Blind Coding', image: '/images/events/blind_coding_new.png', path: '/event/blind_coding' },
-    { name: 'Prompt Engineering', image: '/images/events/prompt_new.png', path: '/event/prompt' }, 
-    { name: 'Code Hunt', image: '/images/events/code_hunt_new.png', path: '/event/code_hunt' },
-    { name: 'Valorant', image: '/images/events/valorant.jpg', path: '/event/valorant' },
+    { name: 'Masked Coders', image: '/images/events/blind_coding_new.png', path: '/event/blind_coding' },
+    { name: 'MetaSquid Hackathon', image: '/images/events/hackathon.png', path: '/event/hackathon' },
+    { name: 'Debug or Die', image: '/images/events/bug_bounty.jpg', path: '/event/bug_bounty' },
+    { name: 'Code 456', image: '/images/events/m2m_new.png', path: '/event/m2m' },
+    { name: 'The Research Arena', image: '/images/events/research.jpg', path: '/event/research' },
+    { name: ' Hunt For The Jackpot', image: '/images/events/treasure_hunt.jpg', path: '/event/treasure_hunt' },
+    { name: ' Pixel Dalgona Challenge', image: '/images/events/uiux.png', path: '/event/uiux' },
+    { name: 'Spike or Die: The Squid Challenge', image: '/images/events/valorant.jpg', path: '/event/valorant' },
   ];
-
+  
   const eventsDay2 = [
-    { name: 'Research', image: '/images/events/research.jpg', path: '/event/research' },
-    { name: 'Stand Up', image: '/images/events/stand_up.png', path: '/event/standup' },
-    { name: 'Track Race', image: '/images/events/track_race.jpg', path: '/event/track_race' },
-    { name: 'UiUx', image: '/images/events/uiux.png', path: '/event/uiux' },
-    { name: 'Treasure Hunt', image: '/images/events/treasure_hunt.jpg', path: '/event/treasure_hunt' },
-    { name: 'Bug Bounty', image: '/images/events/bug_bounty.jpg', path: '/event/bug_bounty' },
+    { name: 'Battleground Survival : Squid Zone', image: '/images/events/bgmi_new.png', path: '/event/bgmi' },
+    { name: ' Code Escape Challenge', image: '/images/events/code_hunt_new.png', path: '/event/code_hunt' },
+    { name: 'The Final Prompt Engineering', image: '/images/events/prompt_new.png', path: '/event/prompt' }, 
+    { name: 'Comedians At Play', image: '/images/events/stand_up.png', path: '/event/standup' },
+    { name: 'Track Titans', image: '/images/events/track_race.jpg', path: '/event/track_race' },
   ];
  
 
@@ -36,10 +36,11 @@ const Events = () => {
   const eventsToDisplay = selectedDay === 'Day 1' ? eventsDay1 : eventsDay2;
 
   return (
-    <div id='events' className="bg-gradient-to-tr from-[#310e27] 0% via-[#000000] 50% to-[#000000] 100%  py-10 px-3 sm:px-20 md:px-20 lg:px-16 xl:px-28 -z-10 bg-cover bg-center bg-no-repeat ">
+    // <div id='events' className="bg-gradient-to-tr from-[#310e27] 0% via-[#000000] 50% to-[#000000] 100%  py-10 px-3 sm:px-20 md:px-20 lg:px-16 xl:px-28 -z-10 bg-cover bg-center bg-no-repeat ">
+    <div id='events' className="bg-custom-gradient-banner ">
      
       <div className='flex justify-center flex-col items-center px-2'>
-        <h1 className='text-[22px] text-center lg:text-4xl text-pink-500 font-bold'>Events of TechVista 2025</h1>
+        <h1 className='text-[22px] text-center lg:text-4xl text-pink-500 font-bold pt-10'>Events of TechVista 2025</h1>
         <p className='text-center text-xs md:text-[15px] py-2 text-white'>Step into the spotlight and showcase your talents at TechVista 2025</p>
         <hr className='border-2  border-white w-[25%] mt-2' />
       </div>
@@ -79,7 +80,7 @@ const Events = () => {
                    </div>
               </div>
               <div className='absolute bottom-0 left-0 right-0 m-2 py-2 md:py-3 xl:py-4 flex flex-col gap-2 xl:gap-3 justify-center items-center bg-gray-900 bg-opacity-90 rounded-md text-white'>
-                  <h3 className=" text-[20px] md:text-xl xl:text-2xl font-semibold  text-center">{event.name}</h3>
+                  <h3 className=" text-[20px] md:text-xl xl:text-xl font-semibold  text-center">{event.name}</h3>
                  <div className=' flex w-[90%] mx-auto gap-6 '>
                     <Link to={`${event.path}`} onClick={()=> window.to(0,0)} className=" shadow-sm shadow-pink-300 text-pink-500 py-1 bg-black w-full">
                       <div className=' flex items-center justify-center gap-1'>

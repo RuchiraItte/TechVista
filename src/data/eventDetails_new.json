@@ -1,0 +1,403 @@
+{
+  "blind_coding": {
+    "name_theme":"Masked Coders",
+    "description": [
+      "Blind Coding is a unique programming competition.",
+      "Participants write code without seeing the screen, relying solely on their keyboard skills.",
+      "The competition consists of two rounds.",
+      "Participants can choose their preferred programming language.",
+      "It tests coding skills and memory under challenging conditions."
+    ],
+    "rules": [
+      "Round 1 is 20 minutes, and Round 2 is 40 minutes.",
+       "Exceeding the time limit results in a score of 0.",
+       "Participants must conduct themselves professionally.",
+       "No collaboration or communication with other participants is allowed.",
+       "Late submissions are not accepted.",
+       "Scoring is based on correctness, efficiency, and relevance.",
+       "Round 1 is worth 50-20 points and Round 2 is worth 100-60 points."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "12:00 AM - 03:00 PM ",
+    "venue": "X-121, X-122",
+    "heads": [
+      { "name": "Khushi Kunti", "contact": "9136232994", "image": "/images/robotics.jpg" },
+      { "name": "Mandhavi Amondkar", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ],
+    "entryfee":"150"
+  },
+
+
+  "hackathon": {
+    "name_theme":"CodeArena Hackathon",
+    "description": [
+      "Hackathon is a 7-hour coding challenge.",
+      "Participants work in groups to develop innovative solutions.",
+      "An opportunity to showcase skills and collaborate with creative minds.",
+      "Focus on innovation, creativity, and technical excellence.",
+      "Projects will be evaluated based on creativity, technical implementation, and feasibility.",
+      "Exciting rewards and recognition for top-performing teams."
+    ],
+    "rules": [
+       "Teams must consist of 2 to 4 members.",
+       "Participants must maintain professionalism and adhere to the schedule.",
+       "Teams are free to use any programming language, framework, or tool.",
+       "Participants must bring their own laptops with the necessary software/tools installed.",
+       "The event consists of four rounds: Mentoring, Coding, Judging, and Final Judging round for guidance, challenge-solving, and evaluation."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "11:00 AM - 05:00 PM ",
+    "venue": "Reading Room ",
+    "heads": [
+      { "name": "Sahil Shah", "contact": " 9082049610", "image": "/images/robotics.jpg" },
+      { "name": "Seema Murkar", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "bug_bounty": {
+    "name_theme":"Debug or Die",
+    "description": [
+      "Hackathon is a 7-hour coding challenge.",
+      "Participants work in groups to develop innovative solutions.",
+      "An opportunity to showcase skills and collaborate with creative minds.",
+      "Focus on innovation, creativity, and technical excellence.",
+      "Projects will be evaluated based on creativity, technical implementation, and feasibility.",
+      "Exciting rewards and recognition for top-performing teams."
+    ],
+    "rules": [
+      "One Machine/Desktop allocated per Individual/Team.",
+      "Bug Log Sheet provided to Individual/Team each round.",
+      "Time constraints applied to each round.",
+      "Volunteer decisions are final.",
+      "Unfair means result in Individual or Team Disqualification."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "11:00 AM - 01:00 PM ",
+    "venue": "X-103 ",
+    "heads": [
+      { "name": "Chinmay Chipkar", "contact": " 9321549088", "image": "/images/robotics.jpg" },
+      { "name": "Leena Jadhav", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "m2m": {
+    "name_theme":" Code 456",
+    "description": [
+      "Hackathon is a 7-hour coding challenge.",
+      "Participants work in groups to develop innovative solutions.",
+      "An opportunity to showcase skills and collaborate with creative minds.",
+      "Focus on innovation, creativity, and technical excellence.",
+      "Projects will be evaluated based on creativity, technical implementation, and feasibility.",
+      "Exciting rewards and recognition for top-performing teams."
+    ],
+    "rules": [
+      "One Machine/Desktop allocated per Individual/Team.",
+      "Bug Log Sheet provided to Individual/Team each round.",
+      "Time constraints applied to each round.",
+      "Volunteer decisions are final.",
+      "Unfair means result in Individual or Team Disqualification."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "01:00 PM - 04:00 PM ",
+    "venue": " X-119 , X-120 ",
+    "heads": [
+      { "name": "Jyoti Yadav", "contact": "  8779273885", "image": "/images/robotics.jpg" },
+      { "name": " Maitreyi Joglekar", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "research": {
+    "name_theme":"  The Research Arena",
+    "description": [
+      "Hackathon is a 7-hour coding challenge.",
+      "Participants work in groups to develop innovative solutions.",
+      "An opportunity to showcase skills and collaborate with creative minds.",
+      "Focus on innovation, creativity, and technical excellence.",
+      "Projects will be evaluated based on creativity, technical implementation, and feasibility.",
+      "Exciting rewards and recognition for top-performing teams."
+    ],
+    "rules": [
+      "One Machine/Desktop allocated per Individual/Team.",
+      "Bug Log Sheet provided to Individual/Team each round.",
+      "Time constraints applied to each round.",
+      "Volunteer decisions are final.",
+      "Unfair means result in Individual or Team Disqualification."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "03:00 PM - 05:00 PM ",
+    "venue": " Y-Block Seminar Hall ",
+    "heads": [
+      { "name": "Srikanth Siddabattula", "contact": "   9867944316", "image": "/images/robotics.jpg" },
+      { "name": "  Sabir Shaikh", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "treasure_hunt": {
+    "name_theme":"  Hunt For The Jackpot",
+    "description": [
+      "Embark on an exciting journey to discover hidden treasures through clues and puzzles.",
+      "Decode cryptic hints and solve challenging problems to progress in the quest.",
+      "Race against time and strategize with your team.",
+      "Experience the thrill of uncovering secrets and inching closer to the ultimate jackpot.",
+      "Join the adventure to unlock the final treasure !"
+    ],
+    "rules": [
+      "Each team must consist of 4 participants.",
+      "Teams must follow the clues in the correct order; skipping or altering clues is strictly prohibited.",
+      "Teams must adhere to the time limits specified for each round."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "12:00 PM - 04:00 PM ",
+    "venue": "  X-002, X-123, Tree Area ",
+    "heads": [
+      { "name": "Poonam Kale", "contact": "   9321518513", "image": "/images/robotics.jpg" },
+      { "name": "  Swarupa Gogate", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "uiux": {
+    "name_theme":"  Pixel Dalgona Challenge",
+    "description": [
+      "Embark on an exciting journey to discover hidden treasures through clues and puzzles.",
+      "Decode cryptic hints and solve challenging problems to progress in the quest.",
+      "Race against time and strategize with your team.",
+      "Experience the thrill of uncovering secrets and inching closer to the ultimate jackpot.",
+      "Join the adventure to unlock the final treasure !"
+    ],
+    "rules": [
+      "Each team must consist of 4 participants.",
+      "Teams must follow the clues in the correct order; skipping or altering clues is strictly prohibited.",
+      "Teams must adhere to the time limits specified for each round."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "02:00 PM - 05:00 PM ",
+    "venue": "   X-103 ",
+    "heads": [
+      { "name": "Sakshi Jain", "contact": "    8097204300", "image": "/images/robotics.jpg" },
+      { "name": "  Rohini Desai", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "valorant": {
+    "name_theme":"   Spike or Die: The Squid Challenge",
+    "description": [
+      "Participate in a Squid Game-themed Valorant tournament with high-stakes gameplay.",
+      "Compete in intense tactical matches where strategy and precision are key.",
+      "Showcase exceptional teamwork to outplay opponents in a thrilling competition.",
+      "Inspired by the iconic series, experience the excitement of battling for victory.",
+      "Prove your skills and emerge as the ultimate champion."
+    ],
+    "rules": [
+      "Teams must submit member details, including in-game names, Discord IDs, and captain names.",
+      "A 30-minute buffer is allowed; failure to show up results in opponent qualification.",
+      "Verbal abuse or disrespect leads to team disqualification.",
+      "Teams consist of 5 players + 2 substitutes.",
+      "Matches follow elimination rounds: Best of One for league matches, Best of Three for semi-finals and finals.",
+      "Finals are offline; other matches are online.",
+      "Technical issues allow a maximum 10-minute pause.",
+      "Participants must bring laptops (specs recommended, FPS locked for finals)."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"28 February 2025",
+    "timing": "11:00 AM - 03:00 PM ",
+    "venue": "   X-115, X-112 ",
+    "heads": [
+      { "name": "Pratham Govalkar", "contact": "    9137720220", "image": "/images/robotics.jpg" },
+      { "name": "  Prabal Das", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+
+  
+
+  "bgmi": {
+    "name_theme":"  Battleground Survival : Squid Zone",
+    "description": [
+      "Experience an electrifying BGMI Tournament with a unique Squid Game twist.",
+      "Compete in a high-stakes battle royale inspired by the iconic survival series.",
+      "Showcase strategy, precision, and teamwork to dominate the battlegrounds.",
+      "Face intense challenges and thrilling gameplay in every match.",
+      "Rise above the competition and claim ultimate victory."
+    ],
+    "rules": [
+      "All players must record their POV with the mic on.",
+      "Using an emergency kit will lead to team disqualification.",
+      "Players must record their POV from the Play Store/App Store when starting the game.",
+      "Screenshots are mandatory after every match.",
+      "Teams must carry a power bank to avoid charging issues.",
+      "Failure to provide POV upon a complaint will result in disqualification.",
+      "Allegations without a death cam will not be entertained.",
+      "BGMI ID level must be 40 or above.",
+      "The management's decision will be final."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"1st March 2025",
+    "timing": "10:00 AM - 02:00 PM ",
+    "venue": " Reading Room, Y-002, X-112 ",
+    "heads": [
+      { "name": "Niraj Chaurasiya", "contact": "     9172835505", "image": "/images/robotics.jpg" },
+      { "name": "  Prabal Das", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "code_hunt": {
+    "name_theme":"   Code Escape Challenge",
+    "description": [
+      "Code Escape Challenge is a battle of wits and skills.",
+      "Participants face off in a series of thrilling coding challenges.",
+      "The competition features elimination at every stage.",
+      "Only the best participants will advance to the final round.",
+      "The ultimate prize awaits the final winner."
+    ],
+    "rules": [
+      " One desktop will be allocated per individual participant. ",
+      " Time constraints will be applied to each round. ",
+      " Decisions made by volunteers will be considered final. ",
+      " Engaging in unfair means will result in individual or multiple disqualification.", 
+      "Participants are required to bring their college ID cards for participant verification. ",
+      "Mobile phones are strictly prohibited for use by participants throughout the rounds "
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"1st March 2025",
+    "timing": "10:00 AM - 01:00 PM ",
+    "venue": " X-103 ",
+    "heads": [
+      { "name": "Sejal Pillai", "contact": "7666840369", "image": "/images/robotics.jpg" },
+      { "name": "   Ketaki Ghawali", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "prompt": {
+    "name_theme":"  The Final Prompt Engineering",
+    "description": [
+      "Experience an electrifying BGMI Tournament with a unique Squid Game twist.",
+      "Compete in a high-stakes battle royale inspired by the iconic survival series.",
+      "Showcase strategy, precision, and teamwork to dominate the battlegrounds.",
+      "Face intense challenges and thrilling gameplay in every match.",
+      "Rise above the competition and claim ultimate victory."
+    ],
+    "rules": [
+     " Each team must consist of 2 participants.",
+     " Teams must follow the specified time limits for each round.",
+     " Prompts must be typed on the spot; no pre-prepared materials are allowed.",
+     " Participants may use any AI, including premium versions, during the event.",
+     " AIs that design and create entire websites in coding rounds are prohibited.",
+     " Teams must adhere to the instructions of event coordinators and volunteers."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"1st March 2025",
+    "timing": "10:00 AM - 02:00 PM ",
+    "venue": " X-120 , X-121 ",
+    "heads": [
+      { "name": "Swarup Monde", "contact": "8591281197", "image": "/images/robotics.jpg" },
+      { "name": "Seema Vishwakarma", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+  "track_race": {
+    "name_theme":"  Track Titans",
+    "description": [
+      "Participants will receive components to assemble a line-following robot.",
+      "Pre-written code developed at home must be used to program the bot.",
+      "The robot will race on a track after assembly.",
+      "The total time for assembly and race completion will determine the final score.",
+      "Speed and efficiency in both tasks are key to success."
+    ],
+    "rules": [
+      "All components required for the bot will be provided at the event; no external parts are allowed.",
+      "The code must be pre-written by participants and uploaded to the bot after assembly.",
+      "Any manual intervention is not permitted during the race.",
+      "Time taken for both assembly and the race will be recorded, and the participant with the shortest total time wins.",
+      "Damaging components or the track will lead to disqualification.,"
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"1st March 2025",
+    "timing": "10:00 AM - 02:00 PM ",
+    "venue": " X-114 , X-115 ",
+    "heads": [
+      { "name": "Krishika Nandrajog", "contact": " 8291277096", "image": "/images/robotics.jpg" },
+      { "name": "Amraja Shivkar", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  },
+
+
+  "standup": {
+    "name_theme":"   Comedians At Play",
+    "description": [
+      "Experience an electrifying BGMI Tournament with a unique Squid Game twist.",
+      "Compete in a high-stakes battle royale inspired by the iconic survival series.",
+      "Showcase strategy, precision, and teamwork to dominate the battlegrounds.",
+      "Face intense challenges and thrilling gameplay in every match.",
+      "Rise above the competition and claim ultimate victory."
+    ],
+    "rules": [
+     " Each team must consist of 2 participants.",
+     " Teams must follow the specified time limits for each round.",
+     " Prompts must be typed on the spot; no pre-prepared materials are allowed.",
+     " Participants may use any AI, including premium versions, during the event.",
+     " AIs that design and create entire websites in coding rounds are prohibited.",
+     " Teams must adhere to the instructions of event coordinators and volunteers."
+    ],
+    "prizes": [
+      "1st- 1000rs",
+      "2nd- 500rs"
+    ],
+    "date":"1st March 2025",
+    "timing": "12:00 PM - 02:00 PM ",
+    "venue": " Y-Block Seminar Hall ",
+    "heads": [
+      { "name": "Sujal Bhosle", "contact": " 9136770051", "image": "/images/robotics.jpg" },
+      { "name": "Kanchan Taksale", "contact": "0000000000", "image": "/images/register_img.jpg" }
+    ]
+  }
+
+
+
+
+
+
+
+}

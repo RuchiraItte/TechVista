@@ -11,6 +11,10 @@ export default {
         'custom': '-4px 3px 6px 0px rgba(255, 169, 209, 1)',
         'landing':'0px 0px 19px 11px rgba(247, 80, 182, 1)'
       },
+      backgroundImage: {
+        'custom-gradient-banner': `linear-gradient(50deg, rgba(8,9,49,1) 0%, rgba(2,4,13,1) 18%, rgba(0,0,0,1) 36%, rgba(0,0,0,1) 56%, rgba(35,9,30,1) 84%, rgba(55, 7, 28, 1) 100%)`,
+        
+      },
       container:{
         center:true,
         padding:{

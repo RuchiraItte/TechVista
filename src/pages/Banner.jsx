@@ -102,8 +102,9 @@ const Banner = () => {
 
 
   return (
-    <div id='home' className=" h-[700px] md:h-[550px] lg:h-full  bg-gradient-to-tr from-[#000000] 0% via-[#000000] 50% to-[#310e27] 100% " >
-     {/* <div id='home' className=" h-[600px] lg:h-[600px] xl:h-[720px]  bg-cover bg-center bg-no-repeat bg-[url('/images/landing/landing_bg_small.png')]  md:bg-[url('/images/landing/new_landing_bg.png')] " >  */}
+    // <div id='home' className=" h-[700px] md:h-[550px] lg:h-full  bg-gradient-to-tr from-[#000000] 0% via-[#000000] 50% to-[#310e27] 100% " >
+     <div id='home' className=" h-[700px] md:h-[550px] lg:h-full bg-custom-gradient-banner"  > 
+  
 
      <div className="flex absolute top-[95%] right-[5%] md:top-[80%] md:right-[40%] opacity-45 floating-container">
         <LuCircle className="text-pink-500" size={25} />
@@ -151,7 +152,7 @@ const Banner = () => {
           </div> */}
 
          
-          <div className="w-[325px] md:w-[300px] lg:w-[400px] xl:w-[600px] mt-10 mb-2 md:mt-0 md:mb-0">
+          {/* <div className="w-[325px] md:w-[300px] lg:w-[400px] xl:w-[600px] mt-10 mb-2 md:mt-0 md:mb-0">
       {!isVideoEnded ? (
         <video
           src="/images/landing/theme_reveal_video.mp4"
@@ -161,6 +162,32 @@ const Banner = () => {
           onEnded={handleVideoEnd}
           className="w-full h-[170px] md:h-[200px] lg:h-[250px] xl:h-[350px]"
         />
+      ) : (
+        <img
+          src="/images/landing/theme_reveal_static.png"
+          alt="Static Image"
+          className="w-full h-[170px] md:h-[200px] lg:h-[250px] xl:h-[350px]"
+        />
+      )}
+        </div> */}
+
+
+        <div className="w-[325px] md:w-[300px] lg:w-[400px] xl:w-[600px] mt-10 mb-2 md:mt-0 md:mb-0">
+      {!isVideoEnded ? (
+        <video
+             autoPlay
+             muted
+             playsInline
+            preload="metadata"
+             loop={false}
+             onEnded={handleVideoEnd}
+             className="w-full h-[170px] md:h-[200px] lg:h-[250px] xl:h-[350px]"
+           >
+             <source src="/images/landing/theme_reveal_video.mp4" type="video/mp4" />
+             <source src="/images/landing/theme_reveal_video.webm" type="video/webm" />
+             <p>Your browser does not support HTML5 video. Please update your browser.</p>
+           </video>
+           
       ) : (
         <img
           src="/images/landing/theme_reveal_static.png"
